@@ -37,7 +37,7 @@ export function SettingsPage() {
   const [customerState, setCustomerState] = useState("");
   return (
     <div>
-      <div className="flex space-x-4">
+      <div>
         <div className="flex flex-col space-y-4 w-[450px]">
           <InputLabel
             label={"Prénom"}

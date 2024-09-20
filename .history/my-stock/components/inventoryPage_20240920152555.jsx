@@ -11,7 +11,6 @@ import {
   MapPin,
   Folder,
 } from "lucide-react";
-import { ImageInput } from "@/components/imageInput";
 export function InventoryPage() {
   const data = [1];
   return (
@@ -85,9 +84,9 @@ export function InventoryPage() {
         ) : (
           <div>
             <ProductsTable />
-            <ImageInput />
           </div>
         )}
+        <ImageInput />
       </div>
     </div>
   );
