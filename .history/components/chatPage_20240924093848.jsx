@@ -363,7 +363,7 @@ export const MessagesHeader = () => {
           src="https://chatscope.io/storybook/react/assets/emily-xzL8sDL2.svg"
         />
         <div className="flex flex-col">
-          <h1 className="font-semibold text-gray-700">Jane Doe</h1>
+          <h1 className="font-semibold">Jane Doe</h1>
           <span className="flex space-x-1">
             <h1>Online</h1>
             <h1 className="text-blue-300">12:00</h1>
@@ -375,7 +375,7 @@ export const MessagesHeader = () => {
         <div>
           <h1 className="text-blue-400">Voir le profile</h1>
           <span className="flex space-x-1">
-            <ShoppingBag size={18} />
+            <ShoppingBag size={20} />
             <h1>0 Commandes</h1>
           </span>
         </div>

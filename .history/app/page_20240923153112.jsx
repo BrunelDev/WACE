@@ -8,7 +8,6 @@ import { SettingsPage } from "@/components/settingsPage";
 import { CustomerPage, CustomersPage } from "@/components/customersPage";
 import { ChatPage } from "@/components/chatPage";
 import { DashboardPage } from "@/components/dashboardPage";
-import { OrdersPage } from "@/components/ordersPage";
 export default function page() {
   const {
     isDashboardSelected,
@@ -39,7 +38,7 @@ export default function page() {
           ) : isDashboardSelected ? (
             <DashboardPage />
           ) : isOrdersSelected ? (
-            <OrdersPage />
+            "Commandes"
           ) : isInventorySelected ? (
             <InventoryPage />
           ) : isConversationsSelected ? (

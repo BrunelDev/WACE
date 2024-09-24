@@ -39,7 +39,7 @@ export default function page() {
           ) : isDashboardSelected ? (
             <DashboardPage />
           ) : isOrdersSelected ? (
-            <OrdersPage />
+            "Commandes"
           ) : isInventorySelected ? (
             <InventoryPage />
           ) : isConversationsSelected ? (

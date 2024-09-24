@@ -8,7 +8,6 @@ import {
   LogOut,
   Headphones,
   Gift,
-  ShoppingBag,
 } from "lucide-react";
 import { useNavigation } from "@/lib/context";
 import { Logo } from "@/components/logo";
@@ -39,18 +38,6 @@ export function Sidebar() {
           } duration-200 hover:bg-gray-200 w-fit rounded-md hover:scale-110`}
         >
           <Grid2X2 />
-        </span>
-        <span
-          onClick={() => {
-            navigate("orders");
-          }}
-          className={`p-2 ${
-            isOrdersSelected || isOrdersSelected
-              ? "bg-blue-600 scale-110 text-white"
-              : null
-          } duration-200 hover:bg-gray-200 w-fit rounded-md hover:scale-110`}
-        >
-          <ShoppingBag />
         </span>
         <span
           onClick={() => {

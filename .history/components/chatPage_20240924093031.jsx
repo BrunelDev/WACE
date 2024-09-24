@@ -14,7 +14,7 @@ import {
   VideoCallButton,
   MessageInput,
 } from "@chatscope/chat-ui-kit-react";
-import { Search, ShoppingBag } from "lucide-react";
+import { Search } from "lucide-react";
 
 import { InputComponent } from "@/components/input";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -356,28 +356,24 @@ export function MessagesContainer() {
 
 export const MessagesHeader = () => {
   return (
-    <div className="bg-white border-b text-sm text-gray-400 border-b-gray-100 flex  justify-between py-2 px-2">
+    <div className="bg-white border-b text-sm border-b-gray-100 flex  justify-between py-2 px-2">
       <div className="flex space-x-3">
         <Avatar
           name="Emily"
           src="https://chatscope.io/storybook/react/assets/emily-xzL8sDL2.svg"
         />
         <div className="flex flex-col">
-          <h1 className="font-semibold text-gray-700">Jane Doe</h1>
-          <span className="flex space-x-1">
+          <h1 className="font-semibold">Jane Doe</h1>
+          <span>
             <h1>Online</h1>
             <h1 className="text-blue-300">12:00</h1>
           </span>
         </div>
       </div>
-      <div className="flex space-x-2 justify-center items-center">
+      <div className="flex w-fit h-fit">
         <Status status={"Nouveau Client"} />
         <div>
           <h1 className="text-blue-400">Voir le profile</h1>
-          <span className="flex space-x-1">
-            <ShoppingBag size={18} />
-            <h1>0 Commandes</h1>
-          </span>
         </div>
       </div>
     </div>

@@ -85,6 +85,7 @@ export function InventoryPage() {
         ) : (
           <div>
             <ProductsTable />
+            <ImageInput />
           </div>
         )}
       </div>

@@ -42,7 +42,7 @@ export function Sidebar() {
         </span>
         <span
           onClick={() => {
-            navigate("orders");
+            navigate("users");
           }}
           className={`p-2 ${
             isOrdersSelected || isOrdersSelected
